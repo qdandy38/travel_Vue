@@ -1,0 +1,102 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Microsoft JhengHei', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner {
+    /* min-height: 380px; */
+    min-height: 750px;
+    background-attachment: fixed;
+}
+
+.bg-cover {
+    background-position: top center;
+    background-size: cover;
+}
+
+#selectArea {
+    font-weight: bold;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.70);
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    line-height: 21px;
+    font-size: 18px;
+}
+
+.famousArea {
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+    margin-top: -28px;
+}
+
+.famousArea-title {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+
+.famousArea ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.famousArea-item {
+    width: 20%;
+    margin: 0 2.5%;
+    border-radius: 5px;
+}
+
+.famousArea-item a {
+    font-size: 20px;
+    padding: 11px 0;
+}
+
+.divider {
+    margin: 37px 15px 65px 15px;
+    position: relative;
+    border: 1px dashed #559AC8;
+}
+
+.divider i {
+    background-color: #fff;
+    font-size: 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.areaName {
+    font-size: 36px;
+    color: #8A82CC;
+}
+
+.tag {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.list .card {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+}
+
+.list .card-title,
+.list h6 {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.main {
+    min-height: calc(100vh - (750px + 89.6px));
+}
+
+footer {
+    background-color: #559AC8;
+}
+
+.btnGoTop {
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    right: 40px;
+}
